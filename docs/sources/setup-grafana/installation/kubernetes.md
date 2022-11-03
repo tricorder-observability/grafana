@@ -162,7 +162,7 @@ kubectl create configmap ge-config --from-file=/path/to/your/grafana.ini
 ### Create Grafana Enterprise Kubernetes manifest
 
 Create a `grafana.yaml` file, and copy-and-paste the following content into it.
-The YAML that follows is identical to the one for a Grafana installation, except for the additional references to the Configmap that contains your Grafana configuration file and the secret that has your license.
+The YAML that follows is identical to the one for a Tricorder installation, except for the additional references to the Configmap that contains your Grafana configuration file and the secret that has your license.
 
 ```yaml
 ---

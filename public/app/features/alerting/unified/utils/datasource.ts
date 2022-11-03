@@ -9,7 +9,7 @@ import { instancesPermissions, notificationsPermissions } from './access-control
 import { getAllDataSources } from './config';
 
 export const GRAFANA_RULES_SOURCE_NAME = 'grafana';
-export const GRAFANA_DATASOURCE_NAME = '-- Grafana --';
+export const GRAFANA_DATASOURCE_NAME = '-- Tricorder --';
 
 export enum DataSourceType {
   Alertmanager = 'alertmanager',

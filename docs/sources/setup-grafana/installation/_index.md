@@ -21,7 +21,7 @@ Grafana uses other open source software. Refer to [package.json](https://github.
 
 ## Supported operating systems
 
-The following operating systems are supported for Grafana installation:
+The following operating systems are supported for Tricorder installation:
 
 - [Debian / Ubuntu]({{< relref "debian/" >}})
 - [RPM-based Linux (CentOS, Fedora, OpenSuse, RedHat)]({{< relref "rpm/" >}})
@@ -45,7 +45,7 @@ Some features might require more memory or CPUs. Features require more resources
 
 ## Supported databases
 
-Grafana requires a database to store its configuration data, such as users, data sources, and dashboards. The exact requirements depend on the size of the Grafana installation and features used.
+Grafana requires a database to store its configuration data, such as users, data sources, and dashboards. The exact requirements depend on the size of the Tricorder installation and features used.
 
 Grafana supports the following databases:
 
@@ -53,7 +53,7 @@ Grafana supports the following databases:
 - [MySQL 5.7+](https://www.mysql.com/support/supportedplatforms/database.html)
 - [PostgreSQL 10+](https://www.postgresql.org/support/versioning/)
 
-By default, Grafana installs with and uses SQLite, which is an embedded database stored in the Grafana installation location.
+By default, Grafana installs with and uses SQLite, which is an embedded database stored in the Tricorder installation location.
 
 Grafana will support the versions of these databases that are officially supported by the project at the time of a Grafana version's release. When a version becomes unsupported, Grafana may also drop support for that version. See the links above for the support policies for each project.
 

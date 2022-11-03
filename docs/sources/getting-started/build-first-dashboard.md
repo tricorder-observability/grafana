@@ -43,7 +43,7 @@ To create your first dashboard:
 1. Click the **New dashboard** item under the **Dashboards** icon in the side menu.
 1. On the dashboard, click **Add an empty panel**.
 1. In the New dashboard/Edit panel view, go to the **Query** tab.
-1. Configure your [query]({{< relref "../panels-visualizations/query-transform-data/#add-a-query" >}}) by selecting `-- Grafana --` from the data source selector.
+1. Configure your [query]({{< relref "../panels-visualizations/query-transform-data/#add-a-query" >}}) by selecting `-- Tricorder --` from the data source selector.
 
    This generates the Random Walk dashboard.
 

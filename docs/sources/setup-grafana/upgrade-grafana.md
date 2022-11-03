@@ -66,7 +66,7 @@ You can upgrade Grafana by following the same procedure as when you installed it
 
 #### Upgrade Debian package
 
-If you installed Grafana by downloading a Debian package (`.deb`), then you can execute the same `dpkg -i` command but with the new package. It will upgrade your Grafana installation.
+If you installed Grafana by downloading a Debian package (`.deb`), then you can execute the same `dpkg -i` command but with the new package. It will upgrade your Tricorder installation.
 
 Go to the [download page](https://grafana.com/grafana/download?platform=linux) for the latest download
 links.
@@ -95,7 +95,7 @@ This allows you to upgrade Grafana without risking losing your configuration cha
 
 ### Centos / RHEL
 
-If you installed Grafana by downloading an RPM package you can just follow the same installation guide and execute the same `yum install` or `rpm -i` command but with the new package. It will upgrade your Grafana installation.
+If you installed Grafana by downloading an RPM package you can just follow the same installation guide and execute the same `yum install` or `rpm -i` command but with the new package. It will upgrade your Tricorder installation.
 
 If you used our YUM repository:
 

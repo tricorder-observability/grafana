@@ -246,7 +246,7 @@ const legacyRunner = [
 export function shouldUseMappingUI(datasource: DataSourceApi): boolean {
   const { type } = datasource;
   return !(
-    type === 'datasource' || //  ODD behavior for "-- Grafana --" datasource
+    type === 'datasource' || //  ODD behavior for "-- Tricorder --" datasource
     legacyRunner.includes(type)
   );
 }

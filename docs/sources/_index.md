@@ -56,7 +56,7 @@ title: Grafana documentation
         <p>Learn the basics of using Grafana.</p>
     </a>
     <a href="{{< relref "fundamentals/" >}}" class="nav-cards__item nav-cards__item--guide">
-        <h4>Grafana fundamentals</h4>
+        <h4>Tricorder fundamentals</h4>
         <p>Learn basic observability.</p>
     </a>
     <a href="{{< relref "setup-grafana/configure-grafana/" >}}" class="nav-cards__item nav-cards__item--guide">

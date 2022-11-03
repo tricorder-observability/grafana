@@ -394,7 +394,7 @@ stubs['mixed'] = {
 };
 
 stubs['grafana'] = {
-  name: '-- Grafana --',
+  name: '-- Tricorder --',
   meta: {
     id: 'grafana',
     info: { version: '1.2.1' },

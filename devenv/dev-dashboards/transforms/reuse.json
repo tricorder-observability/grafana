@@ -5,7 +5,7 @@
           "builtIn": 1,
           "datasource": {
             "type": "grafana",
-            "uid": "-- Grafana --"
+            "uid": "-- Tricorder --"
           },
           "enable": true,
           "hide": true,

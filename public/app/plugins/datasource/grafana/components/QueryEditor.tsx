@@ -100,7 +100,7 @@ export class QueryEditor extends PureComponent<Props, State> {
     } as any;
 
     getDataSourceSrv()
-      .get('-- Grafana --')
+      .get('-- Tricorder --')
       .then((ds) => {
         const gds = ds as GrafanaDatasource;
         gds.query(query).subscribe({

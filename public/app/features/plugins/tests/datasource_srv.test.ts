@@ -68,9 +68,9 @@ describe('datasource_srv', () => {
       uid: 'uid-code-mmm',
       meta: { metrics: true, annotations: true } as any,
     },
-    '-- Grafana --': {
+    '-- Tricorder --': {
       type: 'grafana',
-      name: '-- Grafana --',
+      name: '-- Tricorder --',
       meta: { builtIn: true, metrics: true, id: 'grafana' },
     },
     '-- Dashboard --': {
@@ -300,9 +300,9 @@ describe('datasource_srv', () => {
               "id": "grafana",
               "metrics": true,
             },
-            "name": "-- Grafana --",
+            "name": "-- Tricorder --",
             "type": "grafana",
-            "uid": "-- Grafana --",
+            "uid": "-- Tricorder --",
           },
         ]
       `);

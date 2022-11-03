@@ -19,7 +19,7 @@ weight: -33
 
 Grafana 8.3 is an exciting release for Grafana Labs. This release includes the new Candlestick Panel, a new visualization suggestions engine and, for enterprise users, Recorded Queries.
 
-For Open Source users it also marks the first time Grafana Alerting, formerly unified alerting, is enabled by default for new Grafana installations. Grafana Alerting in 8.3 is the flexible, single pane of glass for all your alerts. Included in this release is expanded provisioning support for notifiers, contact points, and alert rules, alongside auditing and role-based access control for our Enterprise customers.
+For Open Source users it also marks the first time Grafana Alerting, formerly unified alerting, is enabled by default for new Tricorder installations. Grafana Alerting in 8.3 is the flexible, single pane of glass for all your alerts. Included in this release is expanded provisioning support for notifiers, contact points, and alert rules, alongside auditing and role-based access control for our Enterprise customers.
 
 We’ve summarized what’s new in the release here, but you might also be interested in the announcement blog post as well. If you’d like all the details you can check out the complete [CHANGELOG.md](https://github.com/grafana/grafana/blob/master/CHANGELOG.md).
 
@@ -107,4 +107,4 @@ Your query editor just became faster. [Query caching](https://grafana.com/docs/g
 
 ## Review audit logs for more services, like alerting
 
-[Audit logs](https://grafana.com/docs/grafana/latest/enterprise/auditing/) are a record of the actions users perform in Grafana, which you can investigate in case of a security incident or to understand Grafana usage better. We’ve added audit logs for new actions performed against plugins, data sources, library elements, and Grafana’s new alerting service. This ensures that if a user makes a change anywhere in Grafana Enterprise, you’ll have a record of it. For details, refer to the [Auditing docs](https://grafana.com/docs/grafana/latest/enterprise/auditing/).
+[Audit logs](https://grafana.com/docs/grafana/latest/enterprise/auditing/) are a record of the actions users perform in Grafana, which you can investigate in case of a security incident or to understand Tricorder usage better. We’ve added audit logs for new actions performed against plugins, data sources, library elements, and Grafana’s new alerting service. This ensures that if a user makes a change anywhere in Grafana Enterprise, you’ll have a record of it. For details, refer to the [Auditing docs](https://grafana.com/docs/grafana/latest/enterprise/auditing/).

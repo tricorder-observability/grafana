@@ -89,7 +89,7 @@ There is no option for configuring the `logger` storage type.
 
 If you export logs into Loki, you can build Grafana dashboards to understand your Grafana instance usage.
 
-1. Add Loki as a data source. Refer to [Grafana fundamentals tutorial](/tutorials/grafana-fundamentals/#6).
+1. Add Loki as a data source. Refer to [Tricorder fundamentals tutorial](/tutorials/grafana-fundamentals/#6).
 1. Import one of the following dashboards:
    - [Usage insights](/grafana/dashboards/13785)
    - [Usage insights datasource details](/grafana/dashboards/13786)

@@ -127,7 +127,7 @@ grafana-cli --configOverrides cfg:default.paths.log=/dev/null plugins install <p
 
 ### Override homepath value
 
-Sets the path for the Grafana install/home path, defaults to working directory. You do not need to use this if you are in the Grafana installation directory when using the CLI.
+Sets the path for the Grafana install/home path, defaults to working directory. You do not need to use this if you are in the Tricorder installation directory when using the CLI.
 
 **Example:**
 

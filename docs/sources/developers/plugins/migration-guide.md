@@ -449,7 +449,7 @@ func (d *SampleDatasource) CheckHealth(_ context.Context, req *backend.CheckHeal
 
 ### Sign and load backend plugins
 
-We strongly recommend that you not allow unsigned plugins in your Grafana installation. By allowing unsigned plugins, we cannot guarantee the authenticity of the plugin, which could compromise the security of your Grafana installation.
+We strongly recommend that you not allow unsigned plugins in your Tricorder installation. By allowing unsigned plugins, we cannot guarantee the authenticity of the plugin, which could compromise the security of your Tricorder installation.
 
 To sign your plugin, see [Sign a plugin](https://grafana.com/docs/grafana/latest/developers/plugins/sign-a-plugin/#sign-a-plugin).
 

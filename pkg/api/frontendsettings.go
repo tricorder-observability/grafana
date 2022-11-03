@@ -49,7 +49,7 @@ func (hs *HTTPServer) getFrontendSettingsMap(c *models.ReqContext) (map[string]i
 		return nil, err
 	}
 
-	defaultDS := "-- Grafana --"
+	defaultDS := "-- Tricorder --"
 	for n, ds := range dataSources {
 		if ds.IsDefault {
 			defaultDS = n

@@ -1,6 +1,6 @@
 {
   "type": "datasource",
-  "name": "-- Grafana --",
+  "name": "-- Tricorder --",
   "id": "grafana",
   "builtIn": true,
 

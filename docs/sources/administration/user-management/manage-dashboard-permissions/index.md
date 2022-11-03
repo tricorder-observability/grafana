@@ -65,7 +65,7 @@ Grant dashboard permissions when you want to restrict or enhance dashboard acces
 
 By default, the viewer organization role does not allow viewers to create dashboards or use the Explore feature. However, by modifying a configuration setting, you can allow viewers to edit a panel and make changes to a dashboard but not save those changes. This setting also enables viewers to use the Explore feature.
 
-This modification is useful for public Grafana installations where you want anonymous users to be able to edit panels and queries but not save or create new dashboards.
+This modification is useful for public Tricorder installations where you want anonymous users to be able to edit panels and queries but not save or create new dashboards.
 
 > **Note**: If you use Grafana Enterprise and customize users' permissions using RBAC, the RBAC permissions override the functionality enabled by the `viewers_can_edit` flag.
 

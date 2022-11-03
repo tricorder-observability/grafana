@@ -61,7 +61,7 @@ func CreateDatasourceLookup(rows []*DatasourceQueryResult) DatasourceLookup {
 		byUID[grafanaDs.UID] = grafanaDs
 	}
 
-	grafanaDsName := "-- Grafana --"
+	grafanaDsName := "-- Tricorder --"
 	if _, ok := byName[grafanaDsName]; !ok {
 		byName[grafanaDsName] = grafanaDs
 	}

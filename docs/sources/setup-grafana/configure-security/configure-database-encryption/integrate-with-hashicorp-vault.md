@@ -71,7 +71,7 @@ the syntax for accessing its _password_ field would be `$__vault{kv:secret/grafa
 ### Secrets engines
 
 Vault supports many secrets engines which represents different methods for storing or generating secrets when requested by an
-authorized user. Grafana supports a subset of these which are most likely to be relevant for a Grafana installation.
+authorized user. Grafana supports a subset of these which are most likely to be relevant for a Tricorder installation.
 
 #### Key/Value
 

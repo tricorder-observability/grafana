@@ -155,7 +155,7 @@ To learn more, start with the [overview]({{< relref "../developers/plugins/backe
 
 To help you get started with Grafana, we’ve launched a brand new tutorials platform. We’ll continue to expand the platform with more tutorials, but here are some of the ones you can try out now:
 
-- [Grafana fundamentals](https://grafana.com/tutorials/grafana-fundamentals/)
+- [Tricorder fundamentals](https://grafana.com/tutorials/grafana-fundamentals/)
 - [Create users and teams](https://grafana.com/tutorials/create-users-and-teams/)
 - [Build a panel plugin](https://grafana.com/tutorials/build-a-panel-plugin/)
 - [Build a data source plugin](https://grafana.com/tutorials/build-a-data-source-plugin/)
@@ -200,7 +200,7 @@ A new feature is [deep linking from the graph panel to the Log Analytics query e
 
 ## Grafana Enterprise
 
-Grafana Enterprise focuses on solving problems for large companies and Grafana installations. And in Grafana 7.0 we are finally
+Grafana Enterprise focuses on solving problems for large companies and Tricorder installations. And in Grafana 7.0 we are finally
 solving one of the most common problems of using Grafana at scale.
 
 This includes problems like:
