@@ -96,7 +96,7 @@ export const SharePublicDashboard = (props: Props) => {
             margin: 0;
           `}
         >
-          Welcome to Grafana public dashboards alpha!
+          Welcome to Tricorder public dashboards alpha!
         </p>
         {isFetchingLoading && <Spinner />}
       </HorizontalGroup>
