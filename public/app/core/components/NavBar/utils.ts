@@ -81,7 +81,7 @@ export const enrichConfigItems = (items: NavModelItem[], location: Location<unkn
       ];
     }
   });
-  return items;
+  return items.filter((i) => i.id !== 'help');
 };
 
 export const enrichWithInteractionTracking = (item: NavModelItem, expandedState: boolean) => {
