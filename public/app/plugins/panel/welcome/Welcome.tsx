@@ -13,6 +13,11 @@ const helpOptions = [
 
 export const WelcomeBanner: FC = () => {
   const styles = useStyles2(getStyles);
+  return (
+    <div className={styles.container}>
+      <h1 className={styles.title}>Welcome to Tricorder</h1>
+    </div>
+  );
 
   return (
     <div className={styles.container}>
