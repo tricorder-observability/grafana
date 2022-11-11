@@ -20,7 +20,7 @@ export function handleAnnotationQueryRunnerError(err: any): Observable<Annotatio
 }
 
 export function handleDatasourceSrvError(err: any): Observable<DataSourceApi | undefined> {
-  notifyWithError('Failed to retrieve datasource', err);
+  // notifyWithError('Failed to retrieve datasource', err);
   return of(undefined);
 }
 
