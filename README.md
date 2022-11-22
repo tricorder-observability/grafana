@@ -6,6 +6,7 @@
 
 ### Prerequisites
 
+- node version: 18.0.0+
 - yarn version: 3.2.3
 - go version: 1.18.1
 
