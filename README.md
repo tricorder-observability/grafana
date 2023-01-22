@@ -23,6 +23,8 @@ To build image:
 
 ```
 docker build -t public.ecr.aws/tricorder/grafana .
-docker push public.ecr.aws/tricorder/grafana
-docker run -it --rm -p 3000:3000 --name=grafana public.ecr.aws/tricorder/grafana
+docker tag public.ecr.aws/tricorder/grafana public.ecr.aws/tricorder/grafana:<tag>
+docker push public.ecr.aws/tricorder/grafana:<tag>
+# To run grafana with docker:
+docker run -it --rm -p 3000:3000 --name=grafana public.ecr.aws/tricorder/grafana:<tag>
 ```
